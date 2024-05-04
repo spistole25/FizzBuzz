@@ -1,12 +1,12 @@
 function fizz_buzz(numbers){
     let result = [];
     numbers.forEach( (num) => {
-        if ( num % 3 === 0){
-            result.push("fizz");
-        } else if ( num % 5 === 0 ){
-            result.push("buzz");
-        }  else if ( num % 15 === 0){
+        if ( num % 15 === 0){
             result.push("fizzbuzz");
+        } else if ( num % 3 === 0 ){
+            result.push("fizz");
+        }  else if ( num % 5 === 0){
+            result.push("buzz");
         } else {
             result.push(num);
         }
