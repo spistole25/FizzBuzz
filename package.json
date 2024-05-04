@@ -1,0 +1,27 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "make a fizz buzz module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spistole25/FizzBuzz.git"
+  },
+  "keywords": [
+    "\"fizz\"",
+    "\"buzz\""
+  ],
+  "author": "Shawna Pistole <spistole25@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spistole25/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/spistole25/FizzBuzz#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
